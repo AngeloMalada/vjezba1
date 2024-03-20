@@ -127,13 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Artikl.cpp" />
+    <ClCompile Include="Kupac.cpp" />
     <ClCompile Include="Plaza.cpp" />
     <ClCompile Include="Predmet.cpp" />
-    <ClCompile Include="vjezba1.cpp" />
+    <ClCompile Include="Racun.cpp" />
+    <ClCompile Include="zadatak1.cpp" />
+    <ClCompile Include="zadatak2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Artikl.h" />
+    <ClInclude Include="Kupac.h" />
     <ClInclude Include="Plaza.h" />
     <ClInclude Include="Predmet.h" />
+    <ClInclude Include="Racun.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

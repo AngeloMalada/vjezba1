@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Plaza.h"
+#include <iomanip>
 #include<vector>
 using namespace std;
 
@@ -49,7 +50,7 @@ int main()
 
 	for ( int i = 0; i<2; ++i)
 	{
-		cout <<i + 1 << ". " << plaze[i].X << " " << plaze[i].Y << " D=" <<  plaze[i].velicina << " - predmeti: ";
+		cout <<i + 1 << ". " << setprecision(8)<< plaze[i].X << " " << plaze[i].Y << " D=" <<  plaze[i].velicina << " - predmeti: ";
 		for (const Predmet& predmet : plaze[i].predmeti) {
 			cout  << predmet.kolicina << " " << predmet.opis << "\n";
 		}

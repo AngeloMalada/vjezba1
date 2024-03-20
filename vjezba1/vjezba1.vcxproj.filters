@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="vjezba1.cpp">
+    <ClCompile Include="zadatak1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Plaza.cpp">
@@ -24,12 +24,33 @@
     <ClCompile Include="Predmet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="zadatak2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kupac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Racun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Artikl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Plaza.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Predmet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kupac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Racun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Artikl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
